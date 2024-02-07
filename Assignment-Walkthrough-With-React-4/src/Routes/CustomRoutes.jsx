@@ -1,0 +1,10 @@
+import { Route, Routes } from "react-router-dom"
+import { HomePage } from "../Pages/HomePage.jsx"
+
+export const CustomRoute=()=>{
+    return(
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+        </Routes>
+    )
+}
